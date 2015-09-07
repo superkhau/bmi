@@ -1,6 +1,6 @@
 {
   "name": "@superkhau/bmi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A BMI (body mass index) utility.",
   "main": "index.js",
   "directories": {
