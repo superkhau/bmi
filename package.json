@@ -1,22 +1,21 @@
 {
   "name": "@superkhau/bmi",
   "version": "1.0.1",
-  "description": "A BMI (body mass index) calculator.",
+  "description": "A BMI (body mass index) utility.",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "mathjs": "^2.2.0"
+    "@superkhau/bmi-calculator": "^1.0.1",
+    "@superkhau/bmi-category": "^1.0.0"
   },
   "devDependencies": {
     "tape": "^4.2.0"
   },
   "scripts": {
-    "test": "tape 'test/*.js'|faucet && tape 'test/functional/*.js'|faucet",
-    "ftest": "tape 'test/functional/*.js'|faucet",
-    "utest": "tape 'test/*.js'|faucet",
-    "publish": "npm publish --access=public"
+    "test": "tape 'test/*.js'|faucet",
+    "ut": "tape 'test/*.js'|faucet"
   },
   "repository": {
     "type": "git",

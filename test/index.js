@@ -18,3 +18,12 @@ test('index.metric should be a function', function(t) {
 
   t.equal(expected, actual);
 });
+
+test('index.category should be a function', function(t) {
+  t.plan(1);
+
+  var expected = 'function';
+  var actual = typeof index.category;
+
+  t.equal(expected, actual);
+});
