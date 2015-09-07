@@ -14,7 +14,8 @@
     "tape": "^4.2.0"
   },
   "scripts": {
-    "test": "tape 'test/*.js'|faucet",
+    "ft": "tape 'test/functional/*.js'|faucet",
+    "test": "tape 'test/*.js'|faucet && tape 'test/functional/*.js'|faucet",
     "ut": "tape 'test/*.js'|faucet"
   },
   "repository": {
