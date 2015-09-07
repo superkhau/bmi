@@ -1,6 +1,6 @@
 {
   "name": "@superkhau/bmi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A BMI (body mass index) calculator.",
   "main": "index.js",
   "directories": {
@@ -15,7 +15,8 @@
   "scripts": {
     "test": "tape 'test/*.js'|faucet && tape 'test/functional/*.js'|faucet",
     "ftest": "tape 'test/functional/*.js'|faucet",
-    "utest": "tape 'test/*.js'|faucet"
+    "utest": "tape 'test/*.js'|faucet",
+    "publish": "npm publish --access=public"
   },
   "repository": {
     "type": "git",
