@@ -6,7 +6,7 @@ test('it should return the correct bmi when given metric arguments',
   t.plan(1);
 
   var expected = 24.9;
-  var actual = bmi.metric(72, 170);
+  var actual = bmi.metric(170, 72);
 
   t.equal(expected, actual);
 });
@@ -16,7 +16,7 @@ test('it should return the correct bmi when given metric arguments with a ' +
   t.plan(1);
 
   var expected = 24.91;
-  var actual = bmi.metric(72, 170, 2);
+  var actual = bmi.metric(170, 72, 2);
 
   t.equal(expected, actual);
 });
